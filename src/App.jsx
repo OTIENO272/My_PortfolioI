@@ -2,6 +2,15 @@ import { useEffect, useState } from "react"
 import { useForm } from "react-hook-form"
 import emailJs from '@emailjs/browser'
 
+// Image imports — Vite bundles these correctly for production
+// Adjust the "./assets/..." path if App.jsx is NOT directly inside src/
+import logo from "./assets/velonith_logo_v2.svg"
+import heroImg from "./assets/WhatsApp Image 2026-09-03 at 23.41.13.jpeg"
+import veloImg from "./assets/velo.png"
+import dmaImg from "./assets/dma.png"
+import ksuImg from "./assets/ksu.png"
+import aboutImg from "./assets/anxkt_WhatsApp Image 2026-09-03 at 23.41.13.jpeg"
+
 const App = () => {
   const [open, setOpen] = useState(false)
   const [theme, setTheme] = useState("dark")
@@ -47,7 +56,7 @@ const App = () => {
       {/* Navbar Container */}
       <div className="flex items-center justify-between bg-slate-900 h-14 text-white p-4 sticky top-0 z-50">
         <div className="font-bold flex items-center">
-          <img src="../src/assets/velonith_logo_v2.svg" alt="prof" className="w-10 h-10" />
+          <img src={logo} alt="prof" className="w-10 h-10" />
         </div>
         <span className="font-semibold">My Portfolio</span>
         
@@ -84,7 +93,7 @@ const App = () => {
       {/* Hero Section */}
       <div id="home" className="grid grid-cols-1 md:grid-cols-2 p-4 gap-4 bg-slate-400 dark:bg-slate-800">
         <div className="flex justify-center items-center">
-          <img src="../src/assets/WhatsApp Image 2026-09-03 at 23.41.13.jpeg" alt="him" className="max-h-96 object-contain rounded-b-full " />
+          <img src={heroImg} alt="him" className="max-h-96 object-contain rounded-b-full " />
         </div>
         <div className="flex flex-col justify-center p-4">
           <span className="text-2xl font-serif">Welcome.</span>
@@ -104,7 +113,7 @@ const App = () => {
           {/* Project 1 */}
           <div className="bg-slate-500 dark:bg-slate-700 p-4 rounded hover:scale-105 transition-all duration-500 flex flex-col justify-between">
             <div>
-              <img src="../src/assets/velo.png" alt="" className="w-full rounded object-cover h-40" />
+              <img src={veloImg} alt="" className="w-full rounded object-cover h-40" />
               <h1 className="p-4 underline text-xl font-bold">Velonith Labs</h1>
               <p className="p-4 text-base font-mono">A platform built to allow modern learning and interaction of developers.</p>
             </div>
@@ -114,7 +123,7 @@ const App = () => {
           {/* Project 2 */}
           <div className="bg-slate-500 dark:bg-slate-700 p-4 rounded hover:scale-105 transition-all duration-500 flex flex-col justify-between">
             <div>
-              <img src="../src/assets/dma.png" alt="" className="w-full rounded object-cover h-40" />
+              <img src={dmaImg} alt="" className="w-full rounded object-cover h-40" />
               <h1 className="p-4 underline text-xl font-bold">DMA Connect</h1>
               <p className="p-4 text-base font-mono">A platform which connects developers to opportunities and also customers to their required services.</p>
             </div>
@@ -124,7 +133,7 @@ const App = () => {
           {/* Project 3 */}
           <div className="bg-slate-500 dark:bg-slate-700 p-4 rounded hover:scale-105 transition-all duration-500 flex flex-col justify-between">
             <div>
-              <img src="../src/assets/ksu.png" alt="" className="w-full rounded object-cover h-40" />
+              <img src={ksuImg} alt="" className="w-full rounded object-cover h-40" />
               <h1 className="p-4 underline text-xl font-bold">Ksa</h1>
               <p className="p-4 text-base font-mono">An authentication system that uses jwt and other backend tech.. </p>
             </div>
@@ -136,7 +145,7 @@ const App = () => {
       {/* About Section Placeholder */}
       <div id="about" className="p-6 bg-slate-100 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
         <h3 className="font-semibold text-2xl mb-4">About Me</h3>
-        <img src="../src/assets/anxkt_WhatsApp Image 2026-09-03 at 23.41.13.jpeg" className="w-70 h-100 rounded-b-full" alt="" />
+        <img src={aboutImg} className="w-70 h-100 rounded-b-full" alt="" />
         <p className="font-mono">Hi! I'm a passionate web developer with experience in building responsive and user-friendly websites. I love turning ideas into reality using code. My skills are majored in the vast area of Full-stack development </p>
       </div>
 
