@@ -1,4 +1,3 @@
-
 # My Portfolio
 
 A personal developer portfolio built with React and Vite, showcasing projects, an about section, and a working contact form powered by EmailJS.
