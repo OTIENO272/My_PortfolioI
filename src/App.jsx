@@ -9,7 +9,7 @@ import heroImg from "./assets/WhatsApp Image 2026-09-03 at 23.41.13.jpeg"
 import veloImg from "./assets/velo.png"
 import dmaImg from "./assets/dma.png"
 import ksuImg from "./assets/ksu.png"
-import aboutImg from "./assets/anxkt_WhatsApp Image 2026-09-03 at 23.41.13.jpeg"
+import aboutImg from "./assets/VicY3.1.jpeg"
 
 const App = () => {
   const [open, setOpen] = useState(false)
