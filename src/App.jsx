@@ -174,7 +174,8 @@ const App = () => {
           <label className="p-4 text-2xl ">Message</label> <br />
           <textarea  {...register('message',{
             required:"No message to be sent!"
-          })}  name="" id="" className="p-4 bg-amber-50 text-slate-700 text-2xl rounded m-3"></textarea> <br />
+          })}  className="p-4 bg-amber-50 text-slate-700 text-2xl rounded m-3"></textarea> <br />
+
           <button disabled={isSubmitting} className="bg-green-800 p-4 rounded items-center cursor-pointer ml-4 text-2xl ">{isSubmitting ? "Sending..." : "Send Message"}</button>
 
         </form>
