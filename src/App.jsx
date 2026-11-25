@@ -786,7 +786,7 @@ const App = () => {
       </section>
 
       <footer className="border-t border-slate-200 dark:border-slate-800 py-6 text-center text-xs text-slate-500 dark:text-slate-400">
-        © {new Date().getFullYear()} {BRAND_NAME} — Victor Odhiambo. Built with React &amp; Tailwind CSS.
+        © {new Date().getFullYear()} {BRAND_NAME} — Victor Odhiambo.
       </footer>
     </div>
   )
