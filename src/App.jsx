@@ -61,7 +61,7 @@ const FEATURED_PROJECTS = [
   
   {
     title: "tibaHub",
-    category: "Fullstack ",
+    category: "Fullstack",
     stack: ["Tailwindcss", "Responsive UI", "pythonFastAPI","react-Typescript"],
     description:
       "A modern hospital management system that brings the medication process into a single platform",
