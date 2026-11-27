@@ -10,13 +10,11 @@ import ksuImg from "./assets/ksu.png"
 import aboutImg from "./assets/about.jpeg"
 
 const GITHUB_USERNAME = "OTIENO272"
-const BRAND_NAME = "vicdevskenya"
+const BRAND_NAME = "VICDEVS"
 
 const ROLES = [
   "Full-Stack Software Engineer",
-  "AI & Machine Learning Developer",
-  "Kotlin Android Developer",
-  "M-Pesa & API Architect",
+  
 ]
 
 const FEATURED_PROJECTS = [
@@ -26,7 +24,7 @@ const FEATURED_PROJECTS = [
     stack: ["React", "Tailwind CSS", "Vercel"],
     description:
       "A modern developer learning and collaboration platform built for interactive coding workflows.",
-    image: veloImg,
+    
     liveUrl: "https://velo-dash-alpha.vercel.app/",
     repoUrl: `https://github.com/${GITHUB_USERNAME}`,
   },
@@ -36,20 +34,11 @@ const FEATURED_PROJECTS = [
     stack: ["JavaScript", "React", "Networking"],
     description:
       "A platform connecting developers to technical opportunities and customers to reliable networking services.",
-    image: dmaImg,
+    
     liveUrl: "https://dma-labs-irxq-three.vercel.app/",
     repoUrl: `https://github.com/${GITHUB_USERNAME}/DMA-company-`,
   },
-  {
-    title: "KSU Authentication",
-    category: "Backend & Auth",
-    stack: ["JWT", "Node.js", "Security"],
-    description:
-      "A secure authentication system implementing JWT token flows, role-based access, and protected routes.",
-    image: ksuImg,
-    liveUrl: "https://ksu-authentication.vercel.app/",
-    repoUrl: `https://github.com/${GITHUB_USERNAME}`,
-  },
+
   {
     title: "Intasend M-Pesa STK Server",
     category: "Backend & Auth",
@@ -59,50 +48,25 @@ const FEATURED_PROJECTS = [
     liveUrl: null,
     repoUrl: `https://github.com/${GITHUB_USERNAME}/Intasend`,
   },
-  {
-    title: "Vic Code Editor",
-    category: "Tools & UI",
-    stack: ["JavaScript", "HTML5", "CSS3"],
-    description:
-      "A lightweight web-based code editor with live preview for rapid frontend prototyping in the browser.",
-    liveUrl: "https://otieno272.github.io/Vic-code-Editor/",
-    repoUrl: `https://github.com/${GITHUB_USERNAME}/Vic-code-Editor`,
-  },
-  {
-    title: "Note App",
-    category: "Full-Stack",
-    stack: ["JavaScript", "React", "Vercel"],
-    description:
-      "A clean, responsive note-taking web application for organizing tasks, ideas, and daily workflows.",
-    liveUrl: "https://note-app-jade-delta.vercel.app",
-    repoUrl: `https://github.com/${GITHUB_USERNAME}/note-app`,
-  },
+
   {
     title: "Movie Web App",
-    category: "Tools & UI",
+    category: "Fullstack",
     stack: ["JavaScript", "REST API", "Vercel"],
     description:
       "An interactive movie discovery application with search, ratings, and dynamic media browsing.",
     liveUrl: "https://project-zblrs.vercel.app/",
     repoUrl: `https://github.com/${GITHUB_USERNAME}/movie-web--app`,
   },
+  
   {
-    title: "UniSmart Student System",
-    category: "Backend & Auth",
-    stack: ["Python", "Data", "Automation"],
+    title: "tibaHub",
+    category: "Fullstack ",
+    stack: ["Tailwindcss", "Responsive UI", "pythonFastAPI","react-Typescript],
     description:
-      "A Python-based student management system built for academic records and institutional workflows.",
-    liveUrl: null,
-    repoUrl: `https://github.com/${GITHUB_USERNAME}/UniSmart`,
-  },
-  {
-    title: "Blog UI",
-    category: "Tools & UI",
-    stack: ["CSS3", "Responsive UI", "Vercel"],
-    description:
-      "A clean editorial blog interface designed with modern typography, cards, and responsive layouts.",
-    liveUrl: "https://blog-ui-alpha.vercel.app/",
-    repoUrl: `https://github.com/${GITHUB_USERNAME}/Blog-UI`,
+      "A modern hospital management system that brings the medication process into a single platform",
+    liveUrl: "tibahub",
+    repoUrl: `https://github.com/${GITHUB_USERNAME}/tibaHub`,
   },
 ]
 
@@ -113,15 +77,12 @@ const SKILL_GROUPS = [
   },
   {
     label: "Backend & APIs",
-    items: ["Python", "FastAPI", "Django", "Node.js", "Express", "PHP", "Java"],
+    items: ["Python", "FastAPI", "Django", "Node.js", "Express",],
   },
-  {
-    label: "Mobile & Systems",
-    items: ["Kotlin", "Android Studio", "C", "C++", "Linux"],
-  },
+ 
   {
     label: "Databases & Cloud",
-    items: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "Supabase", "Docker", "AWS", "Git"],
+    items: ["PostgreSQL", "MySQL", "MongoDB", "Docker", "AWS", "Git"],
   },
 ]
 
@@ -358,8 +319,7 @@ const App = () => {
                 style={{ animationDelay: "200ms" }}
               >
                 A passionate computer engineer, problem solver, and tech creative. Designing
-                scalable full-stack web platforms, Kotlin Android apps, M-Pesa payment servers,
-                and AI-powered systems.
+                scalable full-stack software systems AI-powered systems.
               </p>
 
               <div
