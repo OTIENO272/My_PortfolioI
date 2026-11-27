@@ -10,7 +10,7 @@ import ksuImg from "./assets/ksu.png"
 import aboutImg from "./assets/about.jpeg"
 
 const GITHUB_USERNAME = "OTIENO272"
-const BRAND_NAME = "VICDEVS"
+const BRAND_NAME = "VIC DEVS KENYA"
 
 const ROLES = [
   "Full-Stack Software Engineer",
@@ -421,7 +421,7 @@ const App = () => {
                 FastAPI, Django, and Node.js backends, plus native Kotlin Android apps.
               </p>
               <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-                Currently advancing my work in Artificial Intelligence, Machine Learning, Cloud
+                Currently advancing my work in Artificial Intelligence,, Cloud
                 Architecture (AWS, Docker, Kubernetes), and Cybersecurity.
               </p>
               <div className="pt-2 inline-block px-3.5 py-2 rounded-lg bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 text-xs text-emerald-600 dark:text-emerald-400">
